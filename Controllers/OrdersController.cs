@@ -48,6 +48,7 @@ namespace OrderManagementSystem.Controllers
         /// Retrieves analytics for orders (e.g., average order value, fulfillment time).
         /// </summary>
         /// <returns>Analytics data</returns>
+        
         [HttpGet("analytics")]
         public IActionResult GetAnalytics()
         {
