@@ -36,6 +36,7 @@ namespace OrderManagementSystem.Controllers
         /// <param name="id">Order ID</param>
         /// <param name="status">New status</param>
         /// <returns>Success or failure</returns>
+        
         [HttpPut("{id}/status")]
         public IActionResult UpdateStatus(Guid id, [FromQuery] OrderStatus status)
         {
